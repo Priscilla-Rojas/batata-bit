@@ -137,11 +137,7 @@ main{
 .main-tables-container{
     
     display: flex;
-    /* gap: 50px; */
-    height: 380px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    flex-flow: row wrap;
 }
 .main-currency-table{
     width: 70%;
@@ -411,13 +407,9 @@ main{
 
 .plans-container-slider{
     display: flex;
-    /* gap: 50px; */
-    height: 316px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    flex-flow: row wrap;
+    justify-content: center;
 }
-
 .plans-container-card{
     position: relative;
     scroll-snap-align: center;

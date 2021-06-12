@@ -144,7 +144,7 @@ main{
     scroll-snap-align: center;
 
     min-width: 235px;
-    max-width: 500px;
+    max-width: 450px;
     height: 360px;
     margin: 0 auto 5px;
     font-family: "Inter", sans-serif;
